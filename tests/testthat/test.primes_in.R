@@ -1,5 +1,5 @@
 library(Sandboxy)
-context("Primes")
+context("primes")
 
 test_that("The function gives good output", {
   expect_equal(primes_in(1, 2), 2)
