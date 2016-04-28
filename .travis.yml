@@ -31,6 +31,6 @@ after_succes:
  - codecov
 
 after_failure:
- - cat /home/travis/build/richelbilderbeek/Sandboxy/..Rcheck/00install.out
- - cat /home/travis/build/richelbilderbeek/Sandboxy/..Rcheck/00check.log
+ - cat /home/travis/build/FemkeThon/Sandboxy/..Rcheck/00install.out
+ - cat /home/travis/build/Femkethon/Sandboxy/..Rcheck/00check.log
 
