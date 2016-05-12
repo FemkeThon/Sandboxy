@@ -1,0 +1,42 @@
+---
+title: "chapter2"
+author: "Femke Thon"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+```{r}
+library(plot.practice)
+library(ggplot2)
+```
+First we run the stuff I made.
+
+```{r}
+result <- chapter2()
+names(result)
+```
+## Results
+
+Then we look at what I generated using this function.
+
+For starters, I generated some data.
+
+```{r}
+result$data
+```
+
+And plotted some of it.
+
+```{r}
+result$plots$plot
+result$plots$logplot
+result$plots$xyzplot
+result$plots$coloured
+result$plots$shapes
+```
+
+
+So those were my findings with chapter 2.
