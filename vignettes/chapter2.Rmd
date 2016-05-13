@@ -17,6 +17,7 @@ First we run the stuff I wrote down.
 ```{r}
 result <- chapter2()
 names(result)
+names(result$plots)
 ```
 ## Results
 
@@ -44,7 +45,17 @@ they do.
 result$plots$shapes
 result$plots$red
 result$plots$alpha
+result$plots$smooth1
+result$plots$smooth2
+result$plots$density
+result$plots$histo1
+result$plots$histo2
+result$plots$histo3
+result$plots$bar
+result$plots$time
+result$plots$path
+result$plots$facets
+result$plots$more
 ```
 
-
-So those were my findings with chapter 2.
+So those were the things I tried while reading chapter 2.

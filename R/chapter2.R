@@ -25,5 +25,20 @@ chapter2 <- function(diamonds){
                                binwidth = 1, xlim = c(0, 3))
   file$plots$histo2   <- qplot(carat, data = file$data, geom = "histogram",
                                binwidth = 0.1, xlim = c(0, 3))
+  file$plots$histo3   <- qplot(carat, data = file$data, geom = "histogram",
+                               binwidth = 0.1, fill = color)
+  file$plots$bar      <- qplot(color, data = file$data, geom = "bar",
+                               weight = carat) + scale_y_continuous("carat")
+  file$plots$time     <- qplot(date, unemploy / pop, data = economics,
+                               geom = "line")
+  year                <- function(x) as.POSIXlt(x)$year + 1900
+  file$plots$path     <- qplot(unemploy / pop, uempmed, data = economics,
+                               geom = "path", colour = year(date))
+  file$plots$facets   <- qplot(carat, data = file$data, facets = color ~ .,
+                               geom = "histogram", binwidth = 0.1,
+                               xlim = c(0, 3))
+  file$plots$more     <- qplot(carat, data = file$data, facets = color ~ .,
+                               geom = "histogram", binwidth = 0.1,
+                               xlim = c(0, 3), main = "facetplot")
   file
 }
