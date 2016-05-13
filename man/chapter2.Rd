@@ -4,7 +4,10 @@
 \alias{chapter2}
 \title{Demonstrates what I did with the chapter 2 excercises.}
 \usage{
-chapter2()
+chapter2(diamonds)
+}
+\arguments{
+\item{diamonds, }{the diamonds input file}
 }
 \value{
 a file containing my results.

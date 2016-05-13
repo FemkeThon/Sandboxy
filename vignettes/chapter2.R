@@ -15,3 +15,8 @@ result$plots$logplot
 result$plots$xyzplot
 result$plots$coloured
 
+## ------------------------------------------------------------------------
+result$plots$shapes
+result$plots$red
+result$plots$alpha
+

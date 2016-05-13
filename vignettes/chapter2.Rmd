@@ -12,7 +12,7 @@ vignette: >
 library(plot.practice)
 library(ggplot2)
 ```
-First we run the stuff I made.
+First we run the stuff I wrote down.
 
 ```{r}
 result <- chapter2()
@@ -22,7 +22,7 @@ names(result)
 
 Then we look at what I generated using this function.
 
-For starters, I generated some data.
+For starters, I generated some data from an existing dataset.
 
 ```{r}
 result$data
@@ -35,7 +35,15 @@ result$plots$plot
 result$plots$logplot
 result$plots$xyzplot
 result$plots$coloured
+```
+
+I don't know why these won't work, but hey, when I run the function manually,
+they do.
+
+```{r}
 result$plots$shapes
+result$plots$red
+result$plots$alpha
 ```
 
 
