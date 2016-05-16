@@ -2,7 +2,11 @@
 title: "chapter2"
 author: "Femke Thon"
 date: "16 May 2016"
-output: html_document
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
@@ -10,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-library(plot.practice)
+library(Sandboxy)
 library(ggplot2)
 ```
 First we run the stuff I wrote down.
@@ -37,12 +41,6 @@ result$plots$plot
 result$plots$logplot
 result$plots$xyzplot
 result$plots$coloured
-```
-
-I don't know why these won't work, but hey, when I run the function manually,
-they do.
-
-```{r}
 result$plots$shapes
 result$plots$red
 result$plots$alpha

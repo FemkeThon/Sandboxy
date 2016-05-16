@@ -11,3 +11,4 @@ chapter3 <- function(input){
                                   sample(nrow(ggplot2::diamonds), 100), ]
   file
 }
+

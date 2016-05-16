@@ -1,5 +1,8 @@
+## ----setup, include=FALSE------------------------------------------------
+knitr::opts_chunk$set(echo = TRUE)
+
 ## ------------------------------------------------------------------------
-library(plot.practice)
+library(Sandboxy)
 library(ggplot2)
 
 ## ------------------------------------------------------------------------
@@ -15,8 +18,6 @@ result$plots$plot
 result$plots$logplot
 result$plots$xyzplot
 result$plots$coloured
-
-## ------------------------------------------------------------------------
 result$plots$shapes
 result$plots$red
 result$plots$alpha
