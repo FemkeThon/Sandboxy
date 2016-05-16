@@ -13,12 +13,10 @@ primes_in(x, y)
 }
 \value{
 a list of the primes that are found between (and including) numbers X to Y.
+primes_in(1, 20)
+primes_in(5, 40)
 }
 \description{
 Finds prime numbers in a range of integers.
-}
-\examples{
-primes_in(1, 20)
-primes_in(5, 40)
 }
 

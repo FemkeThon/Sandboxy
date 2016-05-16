@@ -5,7 +5,7 @@
 #' @author Femke Thon
 
 chapter2 <- function(diamonds){
-  file          <- NULL
+  file                <- NULL
   set.seed(1410)
   file$data           <- ggplot2::diamonds[
                          sample(nrow(ggplot2::diamonds), 100), ]

@@ -2,8 +2,8 @@
 #'
 #' @param X a positive integer (or 0)
 #' @param Y a positive integer, higher than or equal to X.
+#' @export
 #' @return a list of the primes that are found between (and including) numbers X to Y.
-#' @examples
 #' primes_in(1, 20)
 #' primes_in(5, 40)
 

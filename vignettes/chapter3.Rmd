@@ -1,0 +1,22 @@
+---
+title: "chapter3"
+author: "Femke Thon"
+date: "16 May 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(plot.practice)
+library(ggplot2)
+```
+First we run the stuff I wrote down.
+
+```{r}
+result <- chapter3()
+names(result)
+names(result$plots)
+```
