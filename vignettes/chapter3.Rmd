@@ -18,10 +18,33 @@ knitr::opts_chunk$set(echo = TRUE)
 library(Sandboxy)
 library(ggplot2)
 ```
+
 First we run the stuff I wrote down.
 
+
 ```{r}
-result <- chapter3()
+result <- chapter3(mpg)
 names(result)
 names(result$plots)
 ```
+
+## Results
+
+Then we look at what I generated using this function.
+
+For starters, I generated some data from an existing dataset.
+
+```{r}
+result$data
+```
+
+And plotted some of it.
+
+```{r}
+result$plots$scatter
+result$plots$layered
+result$plots$laycol
+summary(result$plots$Laycol)
+``` 
+
+So those were the things I tried while reading chapter 3.
